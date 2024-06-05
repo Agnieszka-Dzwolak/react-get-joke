@@ -1,0 +1,24 @@
+:root {
+  --green-color: rgb(205, 240, 234);
+  --dark-green-color: rgb(90, 220, 198);
+  --cream-color: rgb(249, 249, 249);
+  --pink-color: rgb(247, 219, 240);
+  --purple-color: rgb(190, 174, 226);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}

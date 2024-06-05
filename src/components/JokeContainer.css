@@ -1,0 +1,26 @@
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.btn-get-joke {
+  display: block;
+  margin: auto;
+  background-color: var(--purple-color);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-get-joke:hover {
+  background-color: var(--pink-color);
+}
